@@ -42,3 +42,14 @@
    ```powershell
    uv pip list
    ```
+
+6. 安裝資料庫管理工具
+
+   本專案使用 SQLite 資料庫，建議安裝 **DB Browser for SQLite** 進行資料庫檢查和管理：
+
+   [DB Browser for SQLite](https://sqlitebrowser.org/)
+
+   **安裝方式：**
+   - 前往官方網站下載適合您作業系統的版本
+   - 或使用套件管理工具安裝：
+     - Windows (Chocolatey): `choco install sqlitebrowser`
