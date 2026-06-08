@@ -63,3 +63,7 @@
 ## 參考資料
 
 - [MOPS公開資訊觀測站](https://mops.twse.com.tw/mops/#/web/home)
+
+## 備註
+
+有些網址已更新，只參考投資策略

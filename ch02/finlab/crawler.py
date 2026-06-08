@@ -613,7 +613,7 @@ def crawl_finance_statement(year, season, stock_ids):
             'Accept-Language': 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7',
             'Cache-Control': 'max-age=0',
             'Connection': 'keep-alive',
-            'Host': 'mops.twse.com.tw',
+            'Host': 'mopsov.twse.com.tw',
             'Upgrade-Insecure-Requests': '1',
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
         }
@@ -631,7 +631,7 @@ def crawl_finance_statement(year, season, stock_ids):
             if year >= 2019:
                 ty = {"C": "cr", "B": "er", "C": "ir"}
                 url = (
-                    "https://mops.twse.com.tw/server-java/t164sb01?step=3&year=2019&file_name=tifrs-fr1-m1-ci-"
+                    "https://mopsov.twse.com.tw/server-java/t164sb01?step=3&year=2019&file_name=tifrs-fr1-m1-ci-"
                     + ty[report_type]
                     + "-"
                     + i
@@ -643,7 +643,7 @@ def crawl_finance_statement(year, season, stock_ids):
                 )
             else:
                 url = (
-                    'https://mops.twse.com.tw/server-java/t164sb01?step=1&CO_ID='
+                    'https://mopsov.twse.com.tw/server-java/t164sb01?step=1&CO_ID='
                     + i
                     + '&SYEAR='
                     + str(year)
