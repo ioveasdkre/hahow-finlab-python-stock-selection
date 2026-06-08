@@ -53,3 +53,7 @@
    - 前往官方網站下載適合您作業系統的版本
    - 或使用套件管理工具安裝：
      - Windows (Chocolatey): `choco install sqlitebrowser`
+
+## 參考資料
+
+- [MOPS公開資訊觀測站](https://mops.twse.com.tw/mops/#/web/home)
