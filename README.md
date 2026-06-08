@@ -43,7 +43,13 @@
    uv pip list
    ```
 
-6. 安裝資料庫管理工具
+6. 更新 requirements.txt（如需新增或更新套件後）
+
+   ```powershell
+   uv pip freeze > requirements.txt
+   ```
+
+7. 安裝資料庫管理工具
 
    本專案使用 SQLite 資料庫，建議安裝 **DB Browser for SQLite** 進行資料庫檢查和管理：
 
